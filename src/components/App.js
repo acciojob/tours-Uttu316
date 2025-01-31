@@ -69,7 +69,7 @@ const App = () => {
             id={`see-more-${item.id}`}
             onClick={() => toggleOpen(item.id)}
           >
-            {!isOpen[item.id] ? "See more" : "See less"}
+            {!isOpen[item.id] ? "See more" : "Show less"}
           </button>
         </div>
       ))}
